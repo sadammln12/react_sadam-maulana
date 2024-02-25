@@ -1,0 +1,19 @@
+*, html, body{
+    padding: 0;
+    margin :0;
+    font-family: 'Segoe UI', sans-serif;
+}
+ul {
+    list-style: none;
+    gap: 1rem;
+    display: flex;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid black;
+    color: blue;
+    
+}
