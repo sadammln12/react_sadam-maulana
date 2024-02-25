@@ -6,8 +6,9 @@
 
 html {
     width: 1280px;
-    height: 1008px;
+    /* height: 1008px; */
 }
+
 nav{
     background-color: #EDEDEF;
     display: flex;
@@ -103,7 +104,7 @@ button:hover{
 
 .img-placehold {
     width: 550px;
-    height: 335px;
+    /* height: 335px; */
 }
 
 
@@ -123,6 +124,7 @@ button:hover{
 }
 
 .card{
+    background-color: white;
     display: flex;
     border: 1px solid black;
     border-radius: 4px;
@@ -155,8 +157,9 @@ button:hover{
     font-size: 14px;
     background-color: #F44A5B;
     text-transform: capitalize;
-    margin-left: 100vh;
-    margin-top: 100px;
+    position: absolute;
+    top: 753px;
+    left: 589px;
     }
 
     .footer {
@@ -170,3 +173,15 @@ button:hover{
         font-size: 14px;
     }
     
+    .addition {
+        position: absolute;
+        width: 350px;
+        height: 425px;
+        left: -140px;
+        top: 341px;
+        z-index: -1;
+        
+    }
+
+
+
