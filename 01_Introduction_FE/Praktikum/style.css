@@ -2,18 +2,51 @@
     padding: 0;
     margin :0;
     font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(24, 23, 23);
+}
+nav{
+    background-color: rgb(64, 67, 69);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 ul {
     list-style: none;
     gap: 1rem;
     display: flex;
+    margin-left: 10px;
+    background: none;
+}
+li{
+    background-color: rgb(64, 67, 69);
 }
 a {
-    color: black;
+    color: white;
     text-decoration: none;
+    font-weight: 500;
+    background: none;
 }
 nav ul li a:hover{
-    border-bottom: 1px solid black;
-    color: blue;
+    transition: all 0.3s ease 0s;
+    color: crimson;
     
+}
+button {
+    color: white;
+    margin: 0 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px 15px 15px;
+    border-radius: 15px;
+    border-style: none;
+    font-weight: 500;
+    background-color: crimson;
+    
+
+}
+button:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: navajowhite;
+    transition: all 0.3 ease 0s;
 }
