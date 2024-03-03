@@ -1,0 +1,4 @@
+- figma adalah sebuah vektor editor dan alat untuk membuat design dan prototype
+- kelebihan menggunakan figma yaitu gratis, multiplatform on windows dan mac, kolaborasi tim, 
+- kekurangan menggunakan figma yaitu membutuhkan akses internet dalam membuat suatu design
+- fitur figma antara lain, frame (f), grid and column, rectangle tools, text (T), dan masih banyak lagi/
