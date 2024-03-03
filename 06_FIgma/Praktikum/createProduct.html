@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-4" href="#">Simple Header</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end pe-4" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active bg-primary home">Home</a>
+            </li>
+            <li class="nav-item tex">
+              <a class="nav-link text-primary" href="#">Features</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-primary" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="createProduct mt-5">
+      <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-6 text-center">
+          <img src="image/bootstrap-logo.svg.png" alt="">
+          <h1>Create Product</h1>
+          <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+          <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-7">
+              <div class="detail-product">
+              <h4>Detail Product</h4>
+              <p class="mt-4">Product Name</p>
+              <form action="">
+                <input type="text" class="form-control form-input" required>
+              </form>
+              <p class="mt-4">Product Category</p>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>choose..</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <p class="mt-4">Image of Product</p>
+              <form action="">
+                <input type="file" class="form-control input-file">
+              </form>
+              <p class="mt-5 mb-0">Product Freshness</p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Brand New
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Second Hand
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Refusbished
+                </label>
+              </div>
+              <p class="mt-2">Additional Description</p>
+              <form>
+                <input type="text" class="form-control input-text" required>
+              </form>
+              <p>Product Price</p>
+              <div class="input-group">
+                <!-- <span class="input-group-text">$ 1</span> -->
+                <input type="text" class="form-control price" placeholder="$ 1" aria-label="Dollar amount (with dot and two decimal places)">
+              </div>
+              <!-- Modal Trigger -->
+              <div id="liveAlertPlaceholder"></div>
+              <input type="submit" class="btn btn-primary ms-4 btn1" id="liveAlertBtn" required>
+            <div class="col-3"></div>
+          </div>
+        </div>
+        <div class="col-3">
+        </div>
+      </div>
+      
+      <table class="table table-striped ms-4 mt-4">
+        <h1 class="text-center mt-3"><strong>List Product</strong></h1>
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Category</th>
+            <th scope="col">Image of Product</th>
+            <th scope="col">Product Freshness</th>
+            <th scope="col">Additional Description</th>
+            <th scope="col">Product Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" style="font-weight: normal;">1,001</th>
+            <td>Lorem</td>
+            <td>Ipsum</td>
+            <td>dolor</td>
+            <td>Brand New</td>
+            <td>addispicing</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <th scope="row"  style="font-weight: normal;">1,002</th>
+            <td>Lorem</td>
+            <td>Ipsum</td>
+            <td>dolor</td>
+            <td>Brand New</td>
+            <td>addispicing</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <th scope="row"  style="font-weight: normal;">1,003</th>
+            <td>Lorem</td>
+            <td>Ipsum</td>
+            <td>dolor</td>
+            <td>Brand New</td>
+            <td>addispicing</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <th scope="row"  style="font-weight: normal;">1,004</th>
+            <td>Lorem</td>
+            <td>Ipsum</td>
+            <td>dolor</td>
+            <td>Brand New</td>
+            <td>addispicing</td>
+            <td>9</td>
+          </tr>
+        </tbody>
+      </table>
+      <input type="text" class="form-control text-table ms-4" placeholder="Search by Product">
+      <button class="deletion ms-4">Deletion</button>
+      <button class="search">Search</button>
+    </section>
+    <script src="snippet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

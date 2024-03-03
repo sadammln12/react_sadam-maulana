@@ -1,0 +1,275 @@
+html,body {
+    font-family: jost;
+    margin: 0 !important;
+    padding: 0 !important;
+    /* width: 1440px; */
+
+}
+/* navbar styling */
+.navbar {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navbar>h1{
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.navbar>ul {
+    display: flex;
+    gap: 1em;
+    margin-right: 34px;
+}
+
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: #0D6EFD;
+    padding: 12px;
+}
+
+.navbar>ul>li>a:hover{
+    background-color: #0D6EFD;
+    padding: 12px;
+    color: white;
+    border-radius:4px;
+
+}
+
+.active {
+    background-color: #0D6EFD;
+    padding: 12px;
+    color: white !important;
+    border-radius:4px;
+
+}
+
+/* end navbar styling */
+
+/* section */
+.container1 {
+    height: 760px;
+    background-color: #37517E;
+
+}
+
+.title {
+    color: white;
+}
+
+.title>h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.title>p{
+    margin-top: 0;
+    font-weight: normal;
+    opacity: 60%;
+}
+
+.btn1 {
+    border-radius: 50px;
+    padding: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #47B2E4;
+    color: white;
+}
+
+.btn2 {
+    border: none;
+    background: none;
+    color:white;
+    padding: 10px;
+    margin-left: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    background-color: #37517E;
+}
+
+.btn2:hover{
+    background-color: #47B2E4;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+button {
+    margin-top: 20px;
+}
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13%;
+    margin-left: 50px;
+}
+
+.jumbotron>img {
+    width: 636px;
+    height: 527px;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #F3F5FA;
+    height: 239px;
+}
+
+.join-sect>h2{
+    text-transform: capitalize;
+    color: #37517E;
+}
+
+.join-sect>input {
+    width: 516px;
+    height: 30px;
+    border: none    ;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+    
+}
+
+.join-sect>input:hover{
+    border-color: transparent;
+}
+
+.btn-primary{
+    border-radius: 50px;
+    padding: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #47B2E4;
+    color: white;
+}
+.btn3 {
+    position: relative;
+    margin-left: -30px;
+}
+
+/* end section */
+
+/* contact */
+.container2{
+    display: flex;
+    padding: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    color: #777777;
+}
+.arsha {
+    width: 330px;
+    margin-left: 12px;
+}
+
+.arsha>li>span {
+    font-weight: bold;
+}
+
+.links {
+    width: 330px;
+}
+
+.links>li{
+    margin-top: 11px    ;
+}
+
+.services {
+    width: 330px;
+}
+
+.services>li{
+    margin-top: 11px;
+}
+
+.social{
+    width: 330px;
+    
+}
+.social>p{
+    color:#777777;
+}
+
+.head {
+    color:#37517E;
+}
+/* end contact */
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right:80px;
+    background-color: #37517E;
+    color: white;
+    height: 81px;
+}
+
+.copyright {
+    font-weight: bold;
+}
+
+.footer>p{
+    font-weight: 300;
+}
+
+.footer>p>span{
+    color: #47B2E4;
+}
+
+/* end footer */
+
+@media screen and (max-width: 600px){
+    .navbar {
+        display: none;
+    }
+    .title{
+        font-size: 20px;
+    }
+
+    .container {
+        height: 900px;
+        width: 800px;
+    }
+
+    .jumbotron {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .jumbotron>img {
+        width: 50px;
+        height: 50px;
+        margin: 0;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+}

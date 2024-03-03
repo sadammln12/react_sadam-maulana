@@ -1,0 +1,101 @@
+body {
+    font-family: roboto;
+    height: 2000px;
+}
+
+.navbar {
+    background-color: white !important;
+    box-shadow: 0 0 0 3px #888888;
+}
+.navbar-nav{
+    gap: 8px;
+
+}
+.navbar-nav>li>a{
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.home {
+    color: white !important;
+    padding: 12px;
+    border-radius: 4px;
+    
+}
+
+.detail-product {
+    text-align: left !important;
+    /* border: 1px solid black; */
+
+}
+
+.form-input {
+    width: 282px !important;
+    height: 36px !important;
+
+}
+
+.form-select {
+    width: 242px !important;
+    height: 36px !important;
+}
+
+.input-file {
+    width: 232px !important;
+    height: 42px !important;
+    border: 1px solid #084cdf !important;
+    color: #084cdf !important;
+}
+
+input[type=file]::file-selector-button {
+    background: #084cdf;
+    text-align: center !important;
+    padding: 10px !important;
+    color: white;
+    }
+
+.form-check{
+    font-size: 16px;
+}
+
+.input-text {
+    width: 603px !important;
+    height: 116px !important;
+}
+
+.input-group {
+    width: 604px !important;
+    height: 36px !important;
+}
+
+.btn1 {
+    margin-top: 35% !important;
+}
+
+.btn {
+    padding: 10px 15px !important;
+    width :557px !important;
+}
+
+.table {
+    width: 950px !important;
+}
+
+.text-table {
+    width: 194px !important;
+}
+
+.deletion {
+    padding: 8px;
+    border: 1px solid #0D6EFD;
+    background-color: #0D6EFD;
+    color: white;
+}
+.search {
+    margin-left: -6px;
+    padding: 8px;
+    border: 1px solid #0D6EFD;
+    background-color: transparent;
+    color: #0D6EFD;
+}
