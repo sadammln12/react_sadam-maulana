@@ -1,184 +1,101 @@
-* {
-    padding: 0;
-    margin :0;
-    font-family: 'plus jakarta sans';
+body {
+    font-family: roboto;
+    height: 2000px;
 }
 
-html {
-    width: 1280px;
-    /* height: 1008px; */
+.navbar {
+    background-color: white !important;
+    box-shadow: 0 0 0 3px #888888;
+}
+.navbar-nav{
+    gap: 8px;
+
+}
+.navbar-nav>li>a{
+    font-weight: 500;
+    font-size: 16px;
+
 }
 
-nav{
-    background-color: #EDEDEF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 82px;
-}
-.left-nav {
-    display: flex;
-    background: none;
-    justify-content: center;
-    align-items: center ;
-    margin-left: 64px;
-}
-.left-nav img {
-    width: 160px;
-    height: 33.88px;
-}
-.left-nav img:hover{
-    cursor: pointer;
-}
-
-.right-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.right-nav img {
-    width: 24px;
-    height: 24px;
-    margin-right: 24px;
-}
-
-.right-nav img:hover{
-    cursor: pointer;
-}
-
-
-ul {
-    list-style: none;
-    gap: 1rem;
-    display: flex;
-    margin-left: 10px;
-    background: none;
-    margin-left: 25px;
-}
-li{
-    background-color: #EDEDEF;
-}
-a {
-    color: black;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
-    background: none;
-}
-nav ul li a:hover{
-    transition: all 0.3s ease 0s;
-    color: crimson;
+.home {
+    color: white !important;
+    padding: 12px;
+    border-radius: 4px;
     
 }
+
+.detail-product {
+    text-align: left !important;
+    /* border: 1px solid black; */
+
+}
+
+.form-input {
+    width: 282px !important;
+    height: 36px !important;
+
+}
+
+.form-select {
+    width: 242px !important;
+    height: 36px !important;
+}
+
+.input-file {
+    width: 232px !important;
+    height: 42px !important;
+    border: 1px solid #084cdf !important;
+    color: #084cdf !important;
+}
+
+input[type=file]::file-selector-button {
+    background: #084cdf;
+    text-align: center !important;
+    padding: 10px !important;
+    color: white;
+    }
+
+.form-check{
+    font-size: 16px;
+}
+
+.input-text {
+    width: 603px !important;
+    height: 116px !important;
+}
+
+.input-group {
+    width: 604px !important;
+    height: 36px !important;
+}
+
+.btn1 {
+    margin-top: 35% !important;
+}
+
 .btn {
+    padding: 10px 15px !important;
+    width :557px !important;
+}
+
+.table {
+    width: 950px !important;
+}
+
+.text-table {
+    width: 194px !important;
+}
+
+.deletion {
+    padding: 8px;
+    border: 1px solid #0D6EFD;
+    background-color: #0D6EFD;
     color: white;
-    margin: 0 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 24px;
-    padding: 8px 24px 8px 24px;
-    border-radius: 4px;
-    border-style: none;
-    font-weight: 700;
-    font-size: 14px;
-    background-color: #F44A5B;
-    text-transform: capitalize;
-    
-
 }
-button:hover{
-    cursor: pointer;
-    background-color: rgb(152, 25, 50);
-    transition: all 0.3 ease 0s;
+.search {
+    margin-left: -6px;
+    padding: 8px;
+    border: 1px solid #0D6EFD;
+    background-color: transparent;
+    color: #0D6EFD;
 }
-
-.new-arrival {
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    margin-top: 70px;
-    margin-left: 64px;
-    gap: 32px;
-}
-
-.img-placehold {
-    width: 550px;
-    /* height: 335px; */
-}
-
-
-.desc h2{
-    font-weight: 700;
-    font-size: 48px;
-    margin-bottom: 24px;
-}
-
-#card-testimoni {
-    display: flex;
-    margin: 10px;
-    margin-right: 10px;
-    gap: 16px;
-    margin-left: 64px;
-    margin-top: 7%;
-}
-
-.card{
-    background-color: white;
-    display: flex;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 10px 32px 10px 32px
-    
-}
-
-.card:hover{
-    background-color: #F18F9A;
-    cursor: pointer;
-    transition: all 0.3 ease-in-out;
-}
-
-.card-profile{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.desc-testy {
-    margin-top: 10px;
-}
-
-.btn-danger {
-    color: white;
-    padding: 8px 24px 8px 24px;
-    border-radius: 4px;
-    border-style: none;
-    font-weight: 700;
-    font-size: 14px;
-    background-color: #F44A5B;
-    text-transform: capitalize;
-    position: absolute;
-    top: 753px;
-    left: 589px;
-    }
-
-    .footer {
-        background-color: #F18F9A;
-        margin-top: 190px;
-        padding: 10px;
-        color:#232323;
-        display: flex;
-        justify-content: end;
-        font-weight: 400;
-        font-size: 14px;
-    }
-    
-    .addition {
-        position: absolute;
-        width: 350px;
-        height: 425px;
-        left: -140px;
-        top: 341px;
-        z-index: -1;
-        
-    }
